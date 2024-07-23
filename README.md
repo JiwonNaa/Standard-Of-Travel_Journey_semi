@@ -1,6 +1,14 @@
 <h1 style="color: #000000;"><b>STANDARD-OF-TRAVEL🏡</b></h1>
 <p data-ke-size="size14">참고 사이트 - <a href="https://www.airbnb.co.kr/" target="_blank" rel="noopener&nbsp;noreferrer">https://www.airbnb.co.kr/</a></p>
 
+<h2 style="color: #000000; text-align: start;" data-ke-size="size26"><b>😄본인 역할</b></h2>
+<ul style="list-style-type: disc;" data-ke-list-type="disc">
+<li><b>팀장</b></li>
+<li><b>예약,결재 기능</b></li>
+<li><b>리뷰 기능</b></li>
+</ul>
+
+
 <h2 style="color: #000000; text-align: start;" data-ke-size="size26"><b>⚙️ 개발 환경</b></h2>
 <div style="background-color: #ffffff; color: #1f2328; text-align: start;">
 <h4>✨ Back & Front ✨</h4>
@@ -28,12 +36,7 @@
   <img src='https://img.shields.io/badge/Apache_Tomcat-F8DC75?style=for-the-badge&logo=Apache-Tomcat&logoColor=white'>
 </div>
 
-<h2 style="color: #000000; text-align: start;" data-ke-size="size26"><b>😄본인 역할</b></h2>
-<ul style="list-style-type: disc;" data-ke-list-type="disc">
-<li><b>팀장</b></li>
-<li><b>예약,결재 기능</b></li>
-<li><b>리뷰 기능</b></li>
-</ul>
+
 
 <h2 style="color: #000000; text-align: start;" data-ke-size="size26"><b>⌨️ 담당기능</b><b></b></h2>
 
