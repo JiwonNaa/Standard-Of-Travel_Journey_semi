@@ -1,14 +1,41 @@
 <h1 style="color: #000000;"><b>STANDARD-OF-TRAVEL🏡</b></h1>
 <p data-ke-size="size14">참고 사이트 - <a href="https://www.airbnb.co.kr/" target="_blank" rel="noopener&nbsp;noreferrer">https://www.airbnb.co.kr/</a></p>
 
-<h3>😄본인 역할 </h3> 
+<h2 style="color: #000000; text-align: start;" data-ke-size="size26"><b>⚙️ 개발 환경</b></h2>
+<div style="background-color: #ffffff; color: #1f2328; text-align: start;">
+<h4>✨ Back & Front ✨</h4>
+<div style="white-space: nowrap;">
+    <img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white'>
+      <img src='https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white'>
+  <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white'>
+  <img src='https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white'>
+  <img src='https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white'>
+    <img src='https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=Oracle&logoColor=white'>
+</div>
+
+  <h4>🛠 사용 툴 🛠</h4>
+<div style="white-space: nowrap;">
+  <img src='https://img.shields.io/badge/Apache_Tomcat-F8DC75?style=for-the-badge&logo=Apache-Tomcat&logoColor=white'>
+  <img src='https://img.shields.io/badge/Eclipse_Ide-2C2255?style=for-the-badge&logo=Eclipse-Ide&logoColor=white'>
+  <img src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white'>
+    <img src='https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white'>
+</div>
+
+<h4> server & library & API</h4>
+<div style="white-space: nowrap;">
+  <img src='https://img.shields.io/badge/Apache_Tomcat-F8DC75?style=for-the-badge&logo=Apache-Tomcat&logoColor=white'>
+  <img src='https://img.shields.io/badge/Kakao_Pay-F8DC75?style=for-the-badge&logo=kakao&logoColor=white'>
+  <img src='https://img.shields.io/badge/Apache_Tomcat-F8DC75?style=for-the-badge&logo=Apache-Tomcat&logoColor=white'>
+</div>
+
+<h2 style="color: #000000; text-align: start;" data-ke-size="size26"><b>😄본인 역할</b></h2>
 <ul style="list-style-type: disc;" data-ke-list-type="disc">
 <li><b>팀장</b></li>
 <li><b>예약,결재 기능</b></li>
 <li><b>리뷰 기능</b></li>
 </ul>
 
-<h2 style="color: #000000; text-align: start;" data-ke-size="size26"><b>🔖 담당기능 및 UI</b><b></b></h2>
+<h2 style="color: #000000; text-align: start;" data-ke-size="size26"><b>⌨️ 담당기능</b><b></b></h2>
 
 <h4><b>FRONT</b></h4>
 <p>- reservationPayment(확인 및 결제)</p>
@@ -52,37 +79,8 @@
     - 수정 - 내용 수정 가능
     - 삭제 - (한개, 여러 개, 전체 선택) 삭제 가능
 
-<h2 style="color: #000000; text-align: start;" data-ke-size="size26"><b>⚙️ 개발 환경</b></h2>
-<div style="background-color: #ffffff; color: #1f2328; text-align: start;">
-<h4>✨ Back & Front ✨</h4>
-<div style="white-space: nowrap;">
-    <img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white'>
-      <img src='https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white'>
-  <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white'>
-  <img src='https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white'>
-  <img src='https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white'>
-    <img src='https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=Oracle&logoColor=white'>
-</div>
 
-  <h4>🛠 사용 툴 🛠</h4>
-<div style="white-space: nowrap;">
-  <img src='https://img.shields.io/badge/Apache_Tomcat-F8DC75?style=for-the-badge&logo=Apache-Tomcat&logoColor=white'>
-  <img src='https://img.shields.io/badge/Eclipse_Ide-2C2255?style=for-the-badge&logo=Eclipse-Ide&logoColor=white'>
-  <img src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white'>
-    <img src='https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white'>
-</div>
-
-<h4> server & library & API</h4>
-<div style="white-space: nowrap;">
-  <img src='https://img.shields.io/badge/Apache_Tomcat-F8DC75?style=for-the-badge&logo=Apache-Tomcat&logoColor=white'>
-  <img src='https://img.shields.io/badge/Kakao_Pay-F8DC75?style=for-the-badge&logo=kakao&logoColor=white'>
-  <img src='https://img.shields.io/badge/Apache_Tomcat-F8DC75?style=for-the-badge&logo=Apache-Tomcat&logoColor=white'>
-</div>
-
-<h2 style="color: #000000; text-align: start;" data-ke-size="size26"><b>📝 </b><b>시장분석과 기획의도</b></h2>
-<p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">시장 트렌드와 경제적 요인을 반영하여 맞춤형 숙박 옵션을 제공했습니다. </p>
-<p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">또한 사용자 경험을 최적화하기 위해 직관적인 인터페이스를 제공하고, 간소화된 예약 및 결제 과정을 구현했습니다.</p>
-<h2 style="color: #000000; text-align: start;" data-ke-size="size26"><b>🔖 주요기능</b><b></b></h2>
+<h2 style="color: #000000; text-align: start;" data-ke-size="size26"><b>🖼️ 화면</b><b></b></h2>
 <img src="README_IMG/join.png">
 <img src="README_IMG/book.png">
 <img src="README_IMG/review.png">
@@ -90,6 +88,10 @@
 <img src="README_IMG/addAccom.png">
 <img src="README_IMG/acomm.png">
 <img src="README_IMG/room.png">
+
+<h2 style="color: #000000; text-align: start;" data-ke-size="size26"><b>📝 </b><b>시장분석과 기획의도</b></h2>
+<p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">시장 트렌드와 경제적 요인을 반영하여 맞춤형 숙박 옵션을 제공했습니다. </p>
+<p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">또한 사용자 경험을 최적화하기 위해 직관적인 인터페이스를 제공하고, 간소화된 예약 및 결제 과정을 구현했습니다.</p>
 
 <h2 style="color: #000000; text-align: start;" data-ke-size="size26">🎛️UML 다이어그램</h2>
 <img src="README_IMG/UML.png">
@@ -106,8 +108,6 @@
 <p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">[ week6 ] 백엔드 디버깅 및 PPT작성 &amp; 발표 준비</p>
 
 <img src="README_IMG/schedule.png">
-
-
 
 
 
