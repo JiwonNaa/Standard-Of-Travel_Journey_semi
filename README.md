@@ -1,28 +1,26 @@
-
-# STANDARD-OF-TRAVEL_JOURNEY
-
-TIME_지능지수
-JOURNEY_여행의정석_숙박사이트
-
-<h1 style="color: #000000;"><b>🏡여행의 정석(여정)</b></h1>
+<h1 style="color: #000000;"><b>STANDARD-OF-TRAVEL🏡</b></h1>
 <p data-ke-size="size14">참고 사이트 - <a href="https://www.airbnb.co.kr/" target="_blank" rel="noopener&nbsp;noreferrer">https://www.airbnb.co.kr/</a></p>
-<h2 style="color: #000000;" data-ke-size="size26"><b>🧑&zwj;🤝&zwj;🧑조원, 역할</b><b></b></h2>
-<div style="background-color: #ffffff; color: #1f2328; text-align: start;">
 
-  <h3>나지원 [조장 , 이슈관리자]</h3> 
+<h3>😄본인 역할 </h3> 
+<ul style="list-style-type: disc;" data-ke-list-type="disc">
+<li><b>팀장</b></li>
+<li><b>예약,결재 기능</b></li>
+<li><b>리뷰 기능</b></li>
+</ul>
 
-<h4 data-ke-size="size20"><b>FRONT</b></h4>
-<a id="user-content-front" style="color: #000000;" href="https://github.com/jisooou/Team_Journey/blob/main/README.md#front"></a></div>
-<p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">- reservationPayment(확인 및 결제)</p>
-<p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">- paymentComplete(예약확정)</p>
-<p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">- reservationList(예정된 예약, 지난 예약, 취소된 예약)</p>
-<p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">- myPage(계정)</p>
-<p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">- memberPersonalInfo(개인정보)</p>
-<p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">- loginSecurityInfo(로그인보안)</p>
-<p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">- 리뷰 작성, 목록, 수정 페이지</p>
-<div style="background-color: #ffffff; color: #1f2328; text-align: start;">
+<h2 style="color: #000000; text-align: start;" data-ke-size="size26"><b>🔖 담당기능 및 UI</b><b></b></h2>
+
+<h4><b>FRONT</b></h4>
+<p>- reservationPayment(확인 및 결제)</p>
+<p>- paymentComplete(예약확정)</p>
+<p>- reservationList(예정된 예약, 지난 예약, 취소된 예약)</p>
+<p>- myPage(계정)</p>
+<p>- memberPersonalInfo(개인정보)</p>
+<p>- loginSecurityInfo(로그인보안)</p>
+<p>- 리뷰 작성, 목록, 수정 페이지</p>
+
 <h4 data-ke-size="size20"><b>BACK</b></h4>
-<a id="user-content-back" style="color: #000000;" href="https://github.com/jisooou/Team_Journey/blob/main/README.md#back"></a></div>
+
 <p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">- 예약 및 결제 기능 구현</p>
 
 - 예약(게스트)
@@ -54,68 +52,33 @@ JOURNEY_여행의정석_숙박사이트
     - 수정 - 내용 수정 가능
     - 삭제 - (한개, 여러 개, 전체 선택) 삭제 가능
 
-
-<hr>
-<h3>주선기[DB 관리자, 테스트 관리자]</h3>
-
-<h4 data-ke-size="size20"><b>FRONT</b></h4>
-<a id="user-content-front-1" style="color: #000000;" href="https://github.com/jisooou/Team_Journey/blob/main/README.md#front-1"></a></div>
-<p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">- 숙소 상세페이지</p>
-<p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">- 회원가입</p>
+<h2 style="color: #000000; text-align: start;" data-ke-size="size26"><b>⚙️ 개발 환경</b></h2>
 <div style="background-color: #ffffff; color: #1f2328; text-align: start;">
-  
-<h4 data-ke-size="size20"><b>BACK</b></h4>
-<a id="user-content-back-1" style="color: #000000;" href="https://github.com/jisooou/Team_Journey/blob/main/README.md#back-1"></a></div>
-<p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">- 호스트, 회원기능 구현</p>
+<h4>✨ Back & Front ✨</h4>
+<div style="white-space: nowrap;">
+    <img src='https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white'>
+      <img src='https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white'>
+  <img src='https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white'>
+  <img src='https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white'>
+  <img src='https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white'>
+    <img src='https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=Oracle&logoColor=white'>
+</div>
 
-- 멤버, 호스트
-  - 회원 가입 - 유효성 검사(아이디 - 중복 검사/ 비밀번호- 숫자, 소문자 모두 포함 8자 이상인지 검사, 비밀 번호 일치 여부 검사)
-  - 로그 인
-  - 로그 아웃
-  - 회원 정보 수정 - 유효성 검사 (비밀번호- 숫자, 소문자 모두 포함 8자 이상인지 검사, 비밀 번호 일치 여부 검사)
-  - 회원 탈퇴 - 해당 계정으로 등록한 숙소, 객실 전부 삭제
-  - 생년월일 - 회원 가입일 기준, 만 19세 이상인지 검사
+  <h4>🛠 사용 툴 🛠</h4>
+<div style="white-space: nowrap;">
+  <img src='https://img.shields.io/badge/Apache_Tomcat-F8DC75?style=for-the-badge&logo=Apache-Tomcat&logoColor=white'>
+  <img src='https://img.shields.io/badge/Eclipse_Ide-2C2255?style=for-the-badge&logo=Eclipse-Ide&logoColor=white'>
+  <img src='https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white'>
+    <img src='https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white'>
+</div>
 
-<p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">- 객실 기능 구현</p>
+<h4> server & library & API</h4>
+<div style="white-space: nowrap;">
+  <img src='https://img.shields.io/badge/Apache_Tomcat-F8DC75?style=for-the-badge&logo=Apache-Tomcat&logoColor=white'>
+  <img src='https://img.shields.io/badge/Kakao_Pay-F8DC75?style=for-the-badge&logo=kakao&logoColor=white'>
+  <img src='https://img.shields.io/badge/Apache_Tomcat-F8DC75?style=for-the-badge&logo=Apache-Tomcat&logoColor=white'>
+</div>
 
-- 객실
-  - 객실 등록 - 유효성 검사( 객실명 - 중복 검사 )
-  - 객실 수정 - 유효성 검사( 객실명 - 중복 검사 )
-  - 객실 상세 페이지
-      - 카카오 지도 API 사용해서 해당 객실 위치 띄우기 (숙소의 위도, 경도 사용)
-      - 해당 객실의 가장 최신 후기 6개 보여주기
-  - 객실 삭제
-
-<hr>
-
-<h3>이지수[형상관리자, 일정관리자]</h3>
-
-<h4 data-ke-size="size20"><b>FRONT</b></h4>
-<a id="user-content-front-2" style="color: #000000;" href="https://github.com/jisooou/Team_Journey/blob/main/README.md#front-2"></a></div>
-<p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">- Home - header/footer</p>
-<p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">- Home - 로그인</p>
-<p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">- Wish - 객실관리 페이지</p>
-<p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">- Wish - 위시리스트 페이지</p>
-<div style="background-color: #ffffff; color: #1f2328; text-align: start;">
-<h4 data-ke-size="size20"><b>BACK</b></h4>
-<a id="user-content-back-2" style="color: #000000;" href="https://github.com/jisooou/Team_Journey/blob/main/README.md#back-2"></a></div>
-<p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">- 숙소 기능 구현</p>
-
-- 숙소 관리 (호스트)
-    - 숙소 신규 등록
-        - 각종 숙소 정보(이름, 주소, 시설 여부, 위도/경도, 이미지)를 입력.
-    - 숙소 관리
-        - 숙소 상세보기
-        - 수정과 삭제 기능 
-        (이후 숙소-객실 관리가 연결되도록 구현)
-
-<p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">- 위시리스트 기능 구현</p>
-
-- 홈페이지에서 객실 찜 기능 구현 (멤버)
-    - 위시리스트에서 해당 정보 확인 가능.
-    - 위시리스트에서 찜 삭제 및 해당 객실로 상세보기 이동 가능.
-
-<hr>
 <h2 style="color: #000000; text-align: start;" data-ke-size="size26"><b>📝 </b><b>시장분석과 기획의도</b></h2>
 <p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">시장 트렌드와 경제적 요인을 반영하여 맞춤형 숙박 옵션을 제공했습니다. </p>
 <p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">또한 사용자 경험을 최적화하기 위해 직관적인 인터페이스를 제공하고, 간소화된 예약 및 결제 과정을 구현했습니다.</p>
@@ -144,37 +107,18 @@ JOURNEY_여행의정석_숙박사이트
 
 <img src="README_IMG/schedule.png">
 
-<h2 style="color: #000000; text-align: start;" data-ke-size="size26"><b>⚙️ 개발 환경</b></h2>
-<div style="background-color: #ffffff; color: #1f2328; text-align: start;">
-<h3 data-ke-size="size23"><b>BACK</b></h3>
-<p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">- `자바`, `DB(SQL)`, `톰캣`</p>
-<div style="background-color: #ffffff; color: #1f2328; text-align: start;">
-<h3 data-ke-size="size23"><b>Front</b></h3>
-<p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">- `JSP`, `CSS`, `JQuery`, `피그마`</p>
-<div style="background-color: #ffffff; color: #1f2328; text-align: start;">
-<h3 data-ke-size="size23"><b>협업</b></h3>
-<p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">- `깃허브`, `노션`</p>
-<div style="background-color: #ffffff; color: #1f2328; text-align: start;">
-<h3 data-ke-size="size23"><b>API</b></h3>
-<p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">- `Kakao Pay`, `Kakao Map`</p>
+
+
+
+
+
 <h2 style="color: #000000; text-align: start;" data-ke-size="size26"><b>📡발표 PPT</b></h2>
   https://www.canva.com/design/DAGHCWxMb14/yb3tB-bdmL8HJQ8MdQGaCg/edit?utm_content=DAGHCWxMb14&amp;utm_campaign=designshare&amp;utm_medium=link2&amp;utm_source=sharebutton
-<p data-ke-size="size16">&nbsp;</p>
+
 <h2 style="color: #000000; text-align: start;" data-ke-size="size26"><b>🎞시연영상</b></h2>
 <p data-ke-size="size16">&nbsp;</p>
 https://tv.kakao.com/v/447232382
-<figcaption style="display: none;"></figcaption>
-</figure>
-<p data-ke-size="size16">&nbsp;</p>
-<p style="color: #333333; text-align: start;" data-ke-size="size16">&nbsp;</p>
-<hr data-ke-style="style6" data-ke-type="horizontalRule" />
-<h2 style="color: #000000; text-align: start;" data-ke-size="size26"><b>😄본인 역할&nbsp;</b></h2>
-<ul style="list-style-type: disc;" data-ke-list-type="disc">
-<li><b>조장</b></li>
-<li><b>이슈관리자</b></li>
-</ul>
-<p data-ke-size="size16">&nbsp;</p>
-<hr contenteditable="false" data-ke-type="horizontalRule" data-ke-style="style6" />
+
 <h2 style="color: #000000; text-align: start;" data-ke-size="size26"><b>🤓느낀점</b></h2>
 <p data-ke-size="size16"><br />에어비앤비 클론코딩, 팀 프로젝트를 진행하면서 여러 가지 기술적 문제와 협력의 중요성을 깨달았습니다. 특히, 예약 관리 기능을 구현하는 과정에서 직면한 문제들은 저에게 많은 것을 배울 기회를 주었습니다.</p>
 <p data-ke-size="size16">예를 들어, 비밀번호 확인 기능을 구현할 때 JSP-JS에서 데이터를 전달하는 방법을 이해하였으며, 여러 개의 리뷰 삭제 기능을 구현 할 때 Ajax를 이용한 서버 통신 방법과 JSP에서 데이터 전달 방법을 이해하게 되었습니다.</p>
@@ -184,11 +128,9 @@ https://tv.kakao.com/v/447232382
 <p data-ke-size="size16">이러한 협력 덕분에 프로젝트의 완성도를 높일 수 있었고, 서로의 강점을 최대한 활용하는 법을 배웠습니다. <br /><br />결국,&nbsp;이번&nbsp;프로젝트를&nbsp;통해&nbsp;기술적인&nbsp;역량뿐만&nbsp;아니라&nbsp;협업&nbsp;능력도&nbsp;함께&nbsp;향상시킬&nbsp;수&nbsp;있었습니다.&nbsp;</p>
 <p data-ke-size="size16">팀원들과의&nbsp;원활한&nbsp;소통과&nbsp;협력이&nbsp;없었다면&nbsp;어려운&nbsp;문제들을&nbsp;해결하는&nbsp;데&nbsp;많은&nbsp;시간이&nbsp;걸렸을&nbsp;것입니다.&nbsp;</p>
 <p data-ke-size="size16">따라서,&nbsp;앞으로의&nbsp;프로젝트에서도&nbsp;팀워크를&nbsp;더욱&nbsp;중요하게&nbsp;여기고,&nbsp;지속적인&nbsp;학습을&nbsp;통해&nbsp;기술적인&nbsp;부분에서도&nbsp;성장해&nbsp;나가야겠다고&nbsp;다짐했습니다.</p>
-<p data-ke-size="size16">&nbsp;</p>
-<p data-ke-size="size16">&nbsp;</p>
-<hr contenteditable="false" data-ke-type="horizontalRule" data-ke-style="style1" />
-<p data-ke-size="size16">&nbsp;</p>
-<p data-ke-size="size16">&nbsp;</p>
+
+<hr>
+
 <p data-ke-size="size16">개인적으로는ajax를&nbsp;이용해&nbsp;서버와&nbsp;통신하는&nbsp;방법을&nbsp;연습할&nbsp;수&nbsp;있었습니다. <br />각자&nbsp;맡은&nbsp;부분에서&nbsp;발생한&nbsp;문제를&nbsp;공유하고,&nbsp;함께&nbsp;해결책을&nbsp;모색하는&nbsp;과정에서&nbsp;팀워크의&nbsp;중요성을&nbsp;느꼈습니다. <br />서로의&nbsp;강점을&nbsp;최대한&nbsp;활용해&nbsp;프로젝트의&nbsp;완성도를&nbsp;높일&nbsp;수&nbsp;있었습니다.</p>
 <p data-ke-size="size16">&nbsp;</p>
 <p data-ke-size="size16">&nbsp;</p>
