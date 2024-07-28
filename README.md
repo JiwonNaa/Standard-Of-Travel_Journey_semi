@@ -85,8 +85,8 @@
 
 <h2 style="color: #000000; text-align: start;" data-ke-size="size26"><b>🖼️ 화면</b><b></b></h2>
 <img src="img/1.png">
-<img src="img/1_1.png">
-<img src="img/2.png">
+<img src="img/1_1.jpg">
+<img src="img/2.jpg">
 <img src="img/3.png">
 <img src="img/4.png">
 <img src="img/5.png">
