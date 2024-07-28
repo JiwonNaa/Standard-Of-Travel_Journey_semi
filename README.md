@@ -84,23 +84,20 @@
 
 
 <h2 style="color: #000000; text-align: start;" data-ke-size="size26"><b>🖼️ 화면</b><b></b></h2>
-<img src="README_IMG/join.png">
-<img src="README_IMG/book.png">
-<img src="README_IMG/review.png">
-<img src="README_IMG/wish.png">
-<img src="README_IMG/addAccom.png">
-<img src="README_IMG/acomm.png">
-<img src="README_IMG/room.png">
+<img src="img/1.png">
+<img src="img/1_1.png">
+<img src="img/2.png">
+<img src="img/3.png">
+<img src="img/4.png">
+<img src="img/5.png">
+<img src="img/6.png">
 
 <h2 style="color: #000000; text-align: start;" data-ke-size="size26"><b>📝 </b><b>시장분석과 기획의도</b></h2>
 <p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">시장 트렌드와 경제적 요인을 반영하여 맞춤형 숙박 옵션을 제공했습니다. </p>
 <p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">또한 사용자 경험을 최적화하기 위해 직관적인 인터페이스를 제공하고, 간소화된 예약 및 결제 과정을 구현했습니다.</p>
 
-<h2 style="color: #000000; text-align: start;" data-ke-size="size26">🎛️UML 다이어그램</h2>
-<img src="README_IMG/UML.png">
-
 <h2 style="color: #000000; text-align: start;" data-ke-size="size26"><b>🗃️ERD</b></h2>
-<img src="README_IMG/ERD.png">
+<img src="img/erd.jpg">
 
 <h2 style="color: #000000; text-align: start;" data-ke-size="size26"><b>📅개발 일정</b></h2>
 <p style="background-color: #ffffff; color: #1f2328; text-align: start;" data-ke-size="size16">[ week1 ] 주제회의 및 기획 &amp; DB모델링</p>
