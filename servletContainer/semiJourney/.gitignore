@@ -10,11 +10,6 @@
 *.policy
 *.properties
 *.jar
-*.png
-*.svg
-*.jpg
-*.webp
-*.jpeg
 .metadata/.plugins/org.eclipse.ui.intro/introstate
 *.setup
 *.ser
@@ -29,8 +24,4 @@
 *.zip
 *.txt
 *.dat
-*.jpg
-*.jpeg
-*.png
-*.webp
 /bin/

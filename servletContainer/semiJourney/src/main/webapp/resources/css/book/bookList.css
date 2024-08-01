@@ -103,6 +103,21 @@ main h1, main h2 {
 	grid-template-rows: 1fr 1fr;
 }
 
+.deleteHistory {
+	grid-column: span 2;
+	color: #aaa;
+	float: right;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.deleteHistory:hover, .deleteHistory:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+
 /*리뷰 작성 버튼*/
 .reviewBtnDiv {
 	grid-row: span 2;

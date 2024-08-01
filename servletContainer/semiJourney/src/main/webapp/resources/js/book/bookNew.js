@@ -81,7 +81,7 @@ function selectCard(e) {
 }
 
 
-
+// 카카오페이 결제 API
 document.addEventListener("DOMContentLoaded", () => {
 	const tempFormEl = document.querySelector("#temp-form");
 	const subBtn = document.querySelector("#rsvBtn");
@@ -102,7 +102,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			// Store ID
 			storeId: "store-ace42a29-d07d-4792-a9a1-1669939707a5",
 			// 채널 키
-			channelKey: "channel-key-d2cf9894-e4d8-44d1-98db-2b0f658a477e",
+			channelKey: "channel-key-c41a1ebb-3914-4ba5-ac5a-5ecfb08b006d",
 			pg: "kakaopay",
 			pay_method: "card",
 			merchant_uid: "IMP" + new Date().getTime(),
@@ -120,6 +120,51 @@ document.addEventListener("DOMContentLoaded", () => {
 	});
 
 	console.log(tempFormEl, subBtn, kakaoPayEl);
+});
+
+
+// 토스페이 결제 API
+document.addEventListener("DOMContentLoaded", () => {
+	const tempFormEl = document.querySelector("#temp-form");
+	const subBtn = document.querySelector("#rsvBtn");
+	const tossPayEl = document.querySelector("#TOSS-PAY");
+	const sum = document.querySelector("#sum").textContent.trim();
+
+	tempFormEl.addEventListener("submit", (e) => {
+		
+		console.log(tossPayEl);
+		
+		if (!tossPayEl.classList.contains("selected")) {
+			return;
+		}
+
+		// form submit 막기
+		e.preventDefault();
+
+		let IMP = window.IMP;
+		IMP.init("imp54410645");
+		IMP.request_pay({
+			// Store ID
+			storeId: "store-ace42a29-d07d-4792-a9a1-1669939707a5",
+			// 채널 키
+			channelKey: "channel-key-85bd0ab5-4ef1-4efe-b93f-557e6b7e98c0",
+			pg: "tosspay",
+			pay_method: "card",
+			merchant_uid: "IMP" + new Date().getTime(),
+			name: "여행의 정석",
+			amount: sum
+		}, function(data) {
+			console.log(data);
+			if (data.status === "paid") {
+				// 결제 성공 시 폼 제출
+				tempFormEl.submit();
+			} else {
+				alert("결제에 실패하였습니다.");
+			}
+		});
+	});
+
+	console.log(tempFormEl, subBtn, tossPayEl);
 });
 
 // 초기화
