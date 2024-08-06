@@ -43,7 +43,7 @@
 				<span>여행자</span> <span>게스트 추가</span>
 			</button>
 			<button type="submit" class="search-icon">
-				<img src="/journey/resources/img/search.png" alt="검색 아이콘">
+				<img src="/journey/resources/img/home/search.png" alt="검색 아이콘">
 			</button>
 
 			<div class="search-place" id="search-place">

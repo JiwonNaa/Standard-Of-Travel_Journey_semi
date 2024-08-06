@@ -5,6 +5,7 @@ import static com.kh.journey.db.JDBCTemplate.close;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -370,6 +371,17 @@ public class ReservationDao {
 	// 예약 취소
 	public int cancelReservation(Connection conn, String reserveNo) throws Exception {
 		String sql = "UPDATE RESERVATION SET REFUND_YN='Y' WHERE NO=?";
+		PreparedStatement pstmt = conn.prepareStatement(sql);
+		pstmt.setString(1, reserveNo);
+
+		int result = pstmt.executeUpdate();
+
+		close(pstmt);
+		return result;
+	}
+
+	public int deleteReservation(Connection conn, String reserveNo) throws Exception {
+		String sql = "UPDATE RESERVATION SET DEL_YN='Y' WHERE NO=?";
 		PreparedStatement pstmt = conn.prepareStatement(sql);
 		pstmt.setString(1, reserveNo);
 

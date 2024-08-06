@@ -85,7 +85,7 @@
 	</div>
 			<!-- Member, Host, Admin 회원가입 선택하는 창 -->
 	<div class="select-account" id="select-account-join">
-		<div id="admin">
+		<div id="admin" onclick="showAdminLogin()">
 			<button>
 				<img src="/journey/resources/img/header/admin.png" alt="관리자">
 			</button>
@@ -109,21 +109,21 @@
 
 	<!-- Member, Host, Admin 로그인 선택하는 창 -->
 	<div class="select-account" id="select-account-login">
-		<div id="admin">
-			<button onclick="showAdminLogin()">
+		<div id="admin" onclick="showAdminLogin()">
+			<button >
 				<img src="/journey/resources/img/header/admin.png" alt="관리자">
 			</button>
 			<button>관리자</button>
-		</div>
-		<div id="host">
+		</div >
+		<div id="host" onclick="showHostLogin()">
 			<!-- 포트번호 확인해서 바꾸기 -->
-			<button onclick="showHostLogin()">
+			<button >
 				<img src="/journey/resources/img/header/host.png" alt="호스트">
 			</button>
 			<button>호스트</button>
 		</div>
-		<div id="member">
-			<button id="memberLogin" onclick="showMemberLogin()">
+		<div id="member" onclick="showMemberLogin()">
+			<button id="memberLogin" >
 				<img src="/journey/resources/img/header/member.png" alt="회원">
 			</button>
 			<button>회원</button>

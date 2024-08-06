@@ -76,6 +76,7 @@
 							</c:if>
 						</div>
 						<p id="stay-date">${history.inDate}~${history.outDate}</p>
+						<span class="deleteHistory" onclick="location.href='/journey/book/delete?reserveNo=${history.reserveNo}'">&times; 여행 삭제 하기</span>
 					</div>
 				</div>
 			</c:forEach>
